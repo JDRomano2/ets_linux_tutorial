@@ -1,0 +1,12 @@
+=========================================
+= 1. Goals of the tutorial; how to use it
+=========================================
+
+This tutorial is intended to serve as a very brief introduction to using Linux effectively from the command line. In particular, the topics covered are designed to be of use to student technicians who work for the UVM Computer Depot Clinic and Computing Helpline.
+
+Upon completion of this interactive tutorial, you should be able to comfortably perform basic troubleshooting of common technical issues using a command-line interface. This includes a basic working knowledge of Linux file structure and standard commands that allow the user to manipulate files and disk volumes, as well as view their contents.
+
+As mentioned before, the tutorial is interactive. In general, each section consists of a narrative portion (the boring part you have to read), and an interactive portion, each of which are entirely on the command line. The interactive portion will ask you questions to which you should now know the answers. The questions are designed to mimic situations you may experience in the CDC or in the Helpline. You can attempt to answer the question as many times as is needed in order to correctly answer the question and move on in the tutorial.
+[TODO: FINISH AFTER RUNNER SCRIPT IS CREATED!]
+
+Any questions or comments should be directed to jdromano@uvm.edu

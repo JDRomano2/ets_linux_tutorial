@@ -1,0 +1,18 @@
+=================================================================
+= 3. Shell commands, syntax, command flags, and passing arguments
+=================================================================
+
+There are numerous ways to get a command line interface in Linux. The most commonly used Linux command line is an application named "Bash". Bash is a type of Unix shell. A shell is just a program that gives you a command line that can interact with the operating system. Depending on the distribution of Linux you are using (and whether you specify to start the computer in command line only mode or if you start it in a graphical desktop mode), you may run Bash from within yet ANOTHER program. In Ubuntu (and also in OS X), this application is called Terminal. 
+
+A command line shell is, at its most basic level, a program that asks for a command, reads the command that the user types, runs the command, prints any output, and repeats all of the steps over again indefinitely. Since command lines interact with an operating system at a very low level, they tend to be very picky about what you type. Often, commands are case-sensitive, and typos almost always yield either an error or unintended results.
+
+
++----------------+
+| Shell Commands |
++----------------+
+
+By now, you have already seen what a Bash prompt looks like, but here it is again, in its most basic form:
+
+user@computername /current/dirrectory/here $ [type your command here]
+
+You type your command after the "$". The other information prior to the "$" may 
