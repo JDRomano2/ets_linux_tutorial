@@ -10,6 +10,6 @@ Outline of tutorial:
 7. Diagnosing hardware issues: `fsck` et. al.
 8. Troubleshooting common `bash` issues
 9. Advanced tasks
-  a. Miscellaneous `bash` and `zsh` features
-  b. Installing new applications
-  c. Text editing using `vim`
+    a. Miscellaneous `bash` and `zsh` features
+    b. Installing new applications
+    c. Text editing using `vim`
