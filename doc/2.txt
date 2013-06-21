@@ -41,6 +41,8 @@ Although the overall file structure varies widely between different distribution
 
 There are other folders in the root directory, but they are generally of less concern to us than the ones listed above.
 
+It is worth metioning that there is a common 'shortcut' to the current user's Home directory, in the form of "~/" (minus the quotes). As an example, if I'm logged into the "jdromano" account on my computer, the path "~/" is the short form of "/home/jdromano". Likewise, "~/Downloads" would be the short form of "/home/jdromano/Downloads".
+
 +-----------+
 | Questions |
 +-----------+
