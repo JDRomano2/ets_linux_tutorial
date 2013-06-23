@@ -1,0 +1,26 @@
+==========================
+= Simple file manipulation
+==========================
+
+After learning how to navigate the Linux file system using ls, cd, and pwd, the next logical step is to learn how to perform basic file manipulations. When you have a graphical desktop environment to work with, it can be as simple as dragging and dropping, copying and pasting, or right clicking to bring up a context menu. Obviously, command line users don't have the luxury of working with their files visually, but it doesn't mean that file manipulation has to be any more complex. In fact, being able to scroll up and see the history of your commands provides an even simpler way of verifying that you performed the desired action correctly. As you may expect by now, there is a set of basic commands that you can do to perform these actions:
+
+
++-------------------------------+
+| Copying files and directories |
++-------------------------------+
+
+cp - Copy a file or multiple files to a specified location. The most basic syntax of this command is "cp [file-source] [file-destination]". For example, to copy the file "hello.txt" from /home/jdromano to /usr/local, you would type the command "cp /home/jdromano/hello.txt /usr/local". There are a few important command flags you should be familiar with as well. "-r" copies the files of a directory recursively. In other words, "cp -r /home/jdromano/Documents /home/jdromano/Desktop" will copy the Documents folder AND all of the files/folders it contains to the Desktop folder, preserving the structure of the contained files. You should also know the command flag "-v", which gives verbose output listing each of the files that are copying. This can be redundant when you're only copying one file, but when combined with "-r", it is much more useful. "cp -rv" will recursively copy all files within a directory and print out the list of each of those files as it does so.
+
+
++------------------------------+
+| Moving files and directories |
++------------------------------+
+
+mv - Moves a single file or a directory and its contents to a specified location. Whereas cp results in a copy of the file in both the source and destination directories, mv deletes the file from the source location when it copies it to the destination. Unlike cp, mv has the ability to move EITHER a single file or a directory and all of its subfolders and contained files to another directory without specifying any command flag. The flag "-v" still exists for verbose output, again useful when you are moving numerous sub-folders and their contents to a different location, like with cp.
+
+
++--------------------------------+
+| Renaming files and directories |
++--------------------------------+
+
+Although the "mv" command is short for "move", it is also used for renaimg files. As such, you don't need 
