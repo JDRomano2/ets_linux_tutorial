@@ -24,3 +24,8 @@ mv - Moves a single file or a directory and its contents to a specified location
 +--------------------------------+
 
 Although the "mv" command is short for "move", it is also used for renaimg files. As such, you don't need 
+
+
+## Creating new directories
+
+The `mkdir` command can be used to create a new directory. You can specify either the absolute or local path to the new directory. If you are in the `~/` directory, and want to create a new directory within that named `backups`, you can say either `mkdir ~/backups` or `mkdir backups`, for the same effect.
