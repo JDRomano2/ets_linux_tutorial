@@ -26,4 +26,4 @@ Outline of tutorial:
     
     c. Text editing using `vim`
 
-11. Extras: How to become a Linux master
+11. Next Steps: How to become a Linux master
