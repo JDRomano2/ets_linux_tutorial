@@ -1,22 +1,22 @@
 Outline of tutorial:
 --------------------
-1. Goals of the tutorial; how to use it
+01. Goals of the tutorial; how to use it
 
-2. Brief explanation of Linux file structure
+02. Brief explanation of Linux file structure
 
-3. Shell commands, syntax, command flags, and passing arguments
+03. Shell commands, syntax, command flags, and passing arguments
 
-4. Navigating the file structure from the command line
+04. Navigating the file structure from the command line
 
-5. Simple file manipulation (copying, moving, etc.)
+05. Simple file manipulation (copying, moving, etc.)
 
-6. `sudo`, `chmod`, and permissions
+06. `sudo`, `chmod`, and permissions
 
-7. Working with external data volumes: mounting, copying, and file system architectures
+07. Working with external data volumes: mounting, copying, and file system architectures
 
-8. Diagnosing hardware issues: `fsck` et. al.
+08. Diagnosing hardware issues: `fsck` et. al.
 
-9. Troubleshooting common `bash` issues
+09. Troubleshooting common `bash` issues
 
 10. Advanced tasks
 
@@ -25,3 +25,5 @@ Outline of tutorial:
     b. Installing new applications
     
     c. Text editing using `vim`
+
+11. Extras: How to become a Linux master
